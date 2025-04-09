@@ -1,39 +1,43 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #000000;
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
-    background-color: lavenderblush;
+    background-color:rgb(255, 255, 255);
   }
-  
+  div{
+    background-color:rgb(255, 248, 250);
+    
+  }
   h1 {
-    color: #b83232;
-    font-size: 2em;
+    color: purple;
+    font-size: 3em;
     font-family: Georgia, "Times New Roman", Times, serif;
-    border-bottom: 1px solid #000918;
+    border-bottom: 1px solid #25008b;
     text-align: center;
   }
   
   h2 {
     font-size: 1.5em;
+    color: rebeccapurple;
   }
   
   .job-title {
-    color: #ff00dd;
+    color: rebeccapurple;
     font-weight: bold;
+    font-size: 1.5rem;
   }
   
   a:link,
   a:visited {
     text-align: none;
     transition: all 0.3s ease;
-    color: #fb7642;
+    color: #6a42fb;
   }
   
   a:hover {
-    text-decoration: underline solid #ce7373 2px;
-  color: #7a3700;
+    text-decoration: underline solid #0128ac 2px;
+  color: #2d0080;
   }
-  
